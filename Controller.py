@@ -1,6 +1,6 @@
 import pyfirmata
 
-comport = 'COM4'
+comport = 'COM4' #port number
 
 board = pyfirmata.Arduino(comport)
 
